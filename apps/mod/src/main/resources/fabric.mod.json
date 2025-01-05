@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "rhenium",
+  "version": "${version}",
+  "name": "Rhenium",
+  "description": "Customizable menus with the power of the web.",
+  "authors": [
+    "TheClashFruit"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/rhenium",
+    "sources": "https://github.com/TheClashFruit/Rhenium",
+    "issues": "https://github.com/TheClashFruit/Rhenium/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/rhenium/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.theclashfruit.rhenium.client.RheniumClient"
+    ],
+    "main": [
+      "me.theclashfruit.rhenium.Rhenium"
+    ]
+  },
+  "mixins": [
+    "rhenium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+
+    "minecraft": "${minecraft_version}",
+    "mcef": "${mcef_version}"
+  }
+}

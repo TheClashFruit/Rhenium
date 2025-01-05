@@ -1,0 +1,6 @@
+{
+  "name": "@rhenium/mod",
+  "scripts": {
+    "build": "gradlew build"
+  }
+}

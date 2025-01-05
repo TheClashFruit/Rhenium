@@ -1,0 +1,9 @@
+{
+  "name": "@rhenium/bridge",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
