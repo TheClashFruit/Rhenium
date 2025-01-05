@@ -1,7 +1,16 @@
 {
   "name": "@rhenium/bridge",
+  "type": "module",
   "scripts": {
     "build": "tsc -b"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts", 
+      "default": "./dist/index.js"
+    }
   },
   "devDependencies": {
     "typescript": "^5.7.2"

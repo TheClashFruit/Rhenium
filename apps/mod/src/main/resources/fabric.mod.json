@@ -26,6 +26,7 @@
   "mixins": [
     "rhenium.mixins.json"
   ],
+  "accessWidener" : "rhenium.accesswidener",
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",

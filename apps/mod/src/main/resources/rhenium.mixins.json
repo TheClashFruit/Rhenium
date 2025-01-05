@@ -4,8 +4,12 @@
   "package": "me.theclashfruit.rhenium.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "MCEFClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "client": [
+    "MinecraftClientMixin"
+  ]
 }

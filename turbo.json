@@ -9,7 +9,7 @@
     "build": {
       "dependsOn": ["^build"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": ["dist/**", "build/libs/**"]
+      "outputs": ["dist/**", "build/libs/**", "src/main/resources/assets/rhenium/html/**"]
     },
     "lint": {
       "dependsOn": ["^lint"]

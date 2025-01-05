@@ -23,7 +23,6 @@ export default defineConfig({
       formats: ['es']
     },
     rollupOptions: {
-      external: ['react', 'react-dom'],
       output: {
         entryFileNames: '[name].js'
       }

@@ -1,0 +1,4 @@
+accessWidener v2 named
+
+accessible class net/minecraft/client/MinecraftClient$LoadingContext
+accessible method net/minecraft/client/MinecraftClient createInitScreens (Ljava/util/List;)V

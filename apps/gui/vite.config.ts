@@ -8,10 +8,6 @@ export default defineConfig({
   base: 'rhenium://html/',
   build: {
     outDir: '../mod/src/main/resources/assets/rhenium/html',
-    emptyOutDir: true,
-
-    rollupOptions: {
-      external: ['react', 'react-dom'],
-    }
+    emptyOutDir: true
   }
 });
